@@ -79,7 +79,12 @@ html,body{
   
 
 }
-  
+
+@media screen and (max-width:576px) {
+  #myNav{
+    width: 90% !important;
+  }
+}
 
 
   /* #cards{
