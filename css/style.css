@@ -80,6 +80,17 @@ html,body{
 
 }
 
+#curve{
+  border-radius: 250px !important;
+}
+#floatingTextarea2{
+  border-radius: 30px !important;
+}
+
+i{
+  width: 1500px !important;
+}
+
 @media screen and (max-width:576px) {
   #myNav{
     width: 90% !important;
