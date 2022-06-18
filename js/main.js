@@ -4,8 +4,9 @@ window.addEventListener("load", function(){new WOW().init()})
 let typed=new Typed(".typing-effect", {
     strings: [
         "Business", 
+        "Business",
         "Brand", 
-        "Start Up"
+        "Start Up",
     ], 
     backSpeed:"9", 
     typeSpeed:"9", 
