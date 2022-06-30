@@ -127,12 +127,12 @@ i{
 
   }
 
-  input[type="email"]{
+  /* input[type="email"]{
     margin-left: 30px !important;
-  }
+  } */
 
   textarea{
-    width: 330px;
+    /* width: 330px; */
   }
 .form-control{
   width: 120% !important;
