@@ -134,6 +134,10 @@ i{
   textarea{
     width: 330px;
   }
+.form-control{
+  width: 120% !important;
+}
+
 }
 
 
