@@ -15,7 +15,7 @@ html,body{
 .homesection{
     background-image: linear-gradient(to right,rgba(174,96,213,0.7),
     rgba(138,101,238,0.9)),url(/images/mf.jpg);
-    height: 100vh;
+    height: ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -91,9 +91,31 @@ i{
   width: 1500px !important;
 }
 
+.navbar-toggler{
+  border: none;
+}
+
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+
+.form-control:focus{
+  border: none;
+  /* outline: none; */
+  box-shadow: none;
+}
+
+@media screen and (max-width:1024px) {
+  #cards{
+    /* width: 22rem; */
+  }
+}
+
 @media screen and (max-width:576px) {
   #myNav{
     width: 90% !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
   }
 }
 
